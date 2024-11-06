@@ -1,0 +1,64 @@
+.set-card-image{
+    height: 372px;
+    width: 399px;
+    object-fit: cover;
+}
+
+.card{
+    width: 400px;
+}
+
+body{
+    font-family: "Playfair Display";
+}
+
+.bg-brand-color{
+    background-color: #17a2b8;
+}
+
+.text-brand-color{
+    color: #17a2b8;
+}
+
+
+.brand-btn{
+    color: #17a2b8;
+    background-color: white;
+}
+
+.brand-btn:hover{
+    color: #17a2b8;
+    border: 1px solid #17a2b8;
+}
+
+#bg-img{
+    background-image: url('./media/cinema_bg_img.jpg');
+    /* background-attachment: scroll; */
+    background-size: cover;
+    /* background-blend-mode: multiply; */
+    background-position: center;
+    height: 600px;
+    /* width: 100%; */
+}
+
+.bg-info{
+    background-color: #17a2b8;
+}
+
+i{
+    height: 20px;
+    width: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .set-card-image{
+        height: 372px;
+        width: 345px;
+        object-fit: cover;
+    }
+    
+    .card{
+        width: 345px;
+        margin-bottom: 10px;
+    }
+  }
